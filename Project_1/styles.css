@@ -123,11 +123,20 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #F3722C;
 }
+.img {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  width: 50%;
+}
 /* experience page styles */
 .experience {
   text-align: left;
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-left: 10%;
+}
+.experience:first-child {
+  margin-top: 2rem;
 }
 .experience h2{
   font-size: 1.5em;
